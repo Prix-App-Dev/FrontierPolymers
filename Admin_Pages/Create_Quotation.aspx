@@ -7,7 +7,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" Runat="Server">
 
-    <div class="row">
+    <div class="row" style="margin:5px;">
         <div class="col-lg-4 col-md-6 col-sm-12">
             <input type="text" id="tBoxMobile" runat="server" class="form-control" 
                 placeholder="Enter Mobile Number" list="MobileNumber" required="required" />
@@ -21,7 +21,7 @@
                 placeholder="Enter Firm Name" list="Company"  />
         </div>    
     </div>
-    <div class="row" style="margin-top:5px;">
+    <div class="row" style="margin:5px;">
         <div class="col-lg-11 col-md-10 col-sm-12">
             <input id="tBoxAddress" runat="server" class="form-control" 
                 placeholder="Enter Address" />
@@ -31,12 +31,12 @@
                 placeholder="Enter Pin Code" />
         </div>
     </div>
-    <div class="row" style="margin-top:5px;">
+    <div class="row" style="margin:5px;">
         <div class="col-lg-3 col-md-3 col-sm-12">
-            <select id="DDLCountries" runat="server" class="form-control"></select>
+            <select id="DDLCountries" runat="server" class="form-control" placeholder="Select Country"></select>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12">
-            <select id="DDLStates" runat="server" class="form-control"></select>
+            <select id="DDLStates" runat="server" class="form-control" placeholder="Select State"></select>
         </div>
     </div>
 </asp:Content>
